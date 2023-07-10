@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include <stdio.h>
 
 int main()
 {
@@ -9,44 +9,39 @@ int main()
     printf("Enter your choice: ");
     scanf("%d", &choice);
 
-    if (choice>=1 && choice<=4)
+    if (choice >= 1 && choice <= 4)
     {
-      printf("Enter the two numbers: ");
-      scanf("%d %d", &a, &b);
-    
-    
-    
-    if (choice == 1)
-    {
-        printf("Result: %d\n", a + b);
-    }
-    else if (choice == 2)
-    {
-        printf("Result: %d\n", a - b);
-    }
-    else if (choice == 3)
-    {
-        printf("Result: %d\n", a * b);
-    }
-    else if (choice == 4)
-    {
-        if (b != 0)
+        printf("Enter the two numbers: ");
+        scanf("%d %d", &a, &b);
+
+        if (choice == 1)
         {
-            printf("Result: %.2f\n", a /(float) b);
+            printf("Result: %d\n", a + b);
         }
-        else
+        else if (choice == 2)
         {
-            printf("Error: Division by zero!\n");
+            printf("Result: %d\n", a - b);
         }
-    }
-  
+        else if (choice == 3)
+        {
+            printf("Result: %d\n", a * b);
+        }
+        else if (choice == 4)
+        {
+            if (b != 0)
+            {
+                printf("Result: %.2f\n", a / (float)b);
+            }
+            else
+            {
+                printf("Error: Division by zero!\n");
+            }
+        }
     }
     else
     {
-        printf("Invalid choice! choose the opption between 1 to 4\n");
+        printf("Invalid choice! Choose an option between 1 and 4.\n");
     }
-    
-       
 
     return 0;
 }
