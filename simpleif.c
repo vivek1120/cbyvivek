@@ -1,4 +1,4 @@
-// if program for finding even number
+//Using the modulo operator to check if a number is even or odd
 #include<stdio.h>
 int main()
 {
