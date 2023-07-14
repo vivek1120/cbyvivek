@@ -20,10 +20,12 @@ Right shift : c=6, 0110, c>>3 => 0001,
 int main()
 {
 int a=64, b=30;//100
+
 printf("bitwise &:%d\n", a & b);
 printf("bitwise or:%d\n", a | b);
 printf("bitwise xor:%d\n", a ^ b);
 printf("leftshift: %d",a<<2);
 printf("rightshift: %d",a>>4);
+
 return 0; 
 }
