@@ -7,7 +7,10 @@
 #include<stdio.h>
 int main()
 {
-    int a=30,b=7;
+    int a;
+    int b;
+    printf("enter a number for logic operation: ");
+    scanf("%d%d",&a,&b);
     printf("a&&b = %d\n",a&&b);
     printf("a || b = %d\n",a||b);
     printf("!(a<b) = %d\n",!(a<b));
