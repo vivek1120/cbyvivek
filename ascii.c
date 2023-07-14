@@ -5,5 +5,7 @@ int main()
     for(i='A'; i<'z'; i++)
     {
         printf("%c  ascii value is %d\n",i,i);
-    } 
+    }
+    return 0;
+     
 }
