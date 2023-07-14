@@ -6,7 +6,7 @@ int main(){
     printf("your choice is\n a for addition\n s for subraction\n m for multiplication\n r for remainder of division\n q for quotient of division\n");
 
     printf("enter a choice: ");
-    scanf("\n%c",&choice);
+    scanf("%c",&choice);
 
     printf("enter a two values for arithmetic operation: ");
     scanf("%d %d",&a,&b);
