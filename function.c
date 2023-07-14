@@ -1,4 +1,5 @@
-/*there are two ways to declare  a function
+/* Declaring and calling a function in C:
+there are two ways to declare  a function
         *with decleration 
         *without decleration
 
