@@ -4,10 +4,10 @@
 #include<stdio.h>
 int main()
 {
-    int i=0;
-    for(i=0;i<10;i++)
+    int i=1;
+    for(i=1;i<=10;i++)
     {
-        printf("hello world\n");
+        printf("%dhello world\n", i);
     }
     return 0;
 }
