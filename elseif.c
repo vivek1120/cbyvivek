@@ -1,4 +1,4 @@
-//now we see about the if elseif and else 
+//Using else-if statements for compare numbers
 #include<stdio.h>
 int main()
 {
