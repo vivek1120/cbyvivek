@@ -5,29 +5,32 @@
 int addititon();
 int h =15;//global variable
 
-
-
-
 int main()
 {  
-    static int a = 8;
-    printf("value of h:%d\n",h);
-    printf("address of if h:%p\n",&h);
-    printf("PID : %d\n",getpid());
-    printf("[function v ] value of v: %d\n",addititon());
-    printf("[main] value of a:%d\n",a);
-    if (1)
+    for (int i = 0; i < 5; i++)
     {
-        int a = 9;
-        printf("value of if a:%d\n",a);
-
-        printf("address of if a:%p\n",&a);
-
-
+        printf("for loop :%d\n",addititon());
     }
+    // static int x = 8;
+    // printf("value of h global variable:%d\n",h);
+    // printf("value of x static variable:%d\n",x);
 
-    printf("value of after if main a:%d\n",a);
-    printf("address of main  a:%p\n",&a);
+    // printf("address of if global variable:%p\n",&h);
+    // printf("address of static variable   :%p\n",&x);
+
+    // printf("PID : %d\n",getpid());
+    // printf("function value of v: %d\n",addititon());
+
+
+    // if (1)
+    // {
+    //     int a = 9;
+    //     printf("if value  a:%d\n",a);
+    //     printf("if address a:%p\n",&a);
+
+        
+    //     printf("value of static inside function :%d\n",x);
+    // }
     
     return 0;
 }
@@ -36,10 +39,16 @@ int main()
 
 int addititon()
 {
-    int v;
-    v = 7;
+     int v =1;
     v = v +3;
-    //printf("[inside function] value of a:%d\n",a);
-    int a = 6;
+    v++;
+    printf("value of v :%d\n",v);
+    printf("address of v:%p\n",&v);
+    // int a = 6;
+    // printf("value of function a :%d\n",a);
+    // printf("address of function a:%p\n",&a);
+
+
+
     return v;
 }
