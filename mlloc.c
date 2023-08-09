@@ -7,9 +7,9 @@
 
 Static Array: In the second code using Automatic Memory Allocation,
  the array is declared with a fixed size a determined during runtime. 
- Memory for the array is allocated on the stack.*/
+ Memory for the array is allocated on the stack.
 #include <stdio.h>
-#include <stdlib.h>
+#include <stdlib.h>*/
 
 int main() {
     int *arr;
@@ -40,11 +40,6 @@ int main() {
 
     // Don't forget to free the allocated memory when it's no longer needed.
     free(arr);
-    for (int i = 0; i < n; i++) {
-        printf("%d ", arr[i]); // Output: 0 10 20 30 40
-    }
-
-
 
     return 0;
 }
